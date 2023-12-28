@@ -1,0 +1,21 @@
+<html>
+<head>
+<title> Teste de mensagem de VBScript</title>
+</head>
+
+<body>
+Informe o texto <input type=text id=texto> <br>
+<input type=Button value="Mensagem" onClick="exibeMensagem()"><br>
+<span id="Mensagem" >MENSAGEM</span>
+</body>
+</html>
+
+<script language="VBScript">
+<! --
+Sub exibeMensagem()
+	vEntrada = document.getElementById("texto").value
+	document.getElementById("Mensagem").innerHtml  = "Teste de mensagem de VBScript"
+end sub
+
+-->
+</script>

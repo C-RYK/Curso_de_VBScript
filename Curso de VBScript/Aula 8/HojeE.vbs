@@ -1,0 +1,3 @@
+a = now()
+
+msgbox a
